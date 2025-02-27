@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voting Application</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Voting Application</h1>
+    <p>Cast your vote for your favorite option:</p>
+    
+    <div class="options">
+      <div class="option" data-option="1">
+        <span>Option 1</span>
+        <button class="vote-btn">Vote</button>
+      </div>
+      <div class="option" data-option="2">
+        <span>Option 2</span>
+        <button class="vote-btn">Vote</button>
+      </div>
+      <div class="option" data-option="3">
+        <span>Option 3</span>
+        <button class="vote-btn">Vote</button>
+      </div>
+    </div>
+
+    <div class="results">
+      <h2>Results</h2>
+      <ul id="results-list">
+        <!-- Results will be dynamically populated here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
